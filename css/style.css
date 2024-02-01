@@ -133,6 +133,10 @@ body {
 
 }
 
+
+
+
+
 .nosotros-index{
 
     display: flex; 
@@ -147,18 +151,17 @@ body {
 }
 
 .card{
+
     margin: 20px auto;
     width: 80%;
     margin left: 80px;
- 
-
-
-
+    
 
 }
+
+
 .card-body{
-
-
+    
     background-color: #494948;
     display: flex;
     align-items: end;
@@ -182,6 +185,7 @@ body {
         flex-wrap: wrap;
         justify-content: flex-start; 
         align-items: center; 
+
        
       }
 
@@ -191,7 +195,7 @@ body {
  
 
 .image-with-text img {
-     max-width: 100%;
+    max-width: 100%;
     float: left;
     max-width: 400px;
     margin-right: 20px;
