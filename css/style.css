@@ -60,25 +60,8 @@
     text-transform: uppercase;
   }
   
-  @media screen and (max-width: 550px) {
-    nav {
-      display: flex;
-      flex-direction: column;
-      align-items: end;
-      gap: 1rem;
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      background-color: #494948;
-      padding: 2rem;
-      box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
-    }
-    .menu {
-      flex-direction: column;
-      align-items: end;
-    }
-  }
+
+
   .banner {
     max-width: 70%;
     height: auto;
