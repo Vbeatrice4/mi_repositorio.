@@ -1,50 +1,66 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head> 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../css/style.css"
 
-    </head> 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Coffee store tienda</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css../style.css">
+</head>
 
- 
 <body>
 
-         <!-- INICIO  HEADER-->
+  <!-- INICIO  HEADER-->
+
+  <header class="encabezado">
 
 
-    <header class="encabezado">
-  
+    <nav class="navegacion">
+      <ul class="menu">
+        <li class="menu-item">
+          <a class="menu-item-link" href="./index.html">Inicio</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item-link" href="./scss/views/_nosotros.scss">Nosotros</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item-link" href="./scss/views/_productos.scss">Productos</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item-link" href="./scss/views/_sucursales.scss">Sucursales</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-item-link" href="./scss/views/_contacto.scss">Contacto</a>
+        </li>
+      </ul>
+
+    </nav>
+
+    </div>
 
 
-        <div>
- 
-         <nav>
-           <ul class="nav-menu"> 
-             <li class="menu-list"><a href="./index.html">Inicio</a></li>
-             <li class="menu-list"><a href="nosotros.html">Nosotros</a></li>
-             <li class="menu-list"><a href="productos.html">Productos</a></li>
-             <li class="menu-list"><a href="sucursales.html">Sucursales</a></li>
-             <li class="menu-list"><a href="contacto.html">Contacto</a></li>
-           </ul>
 
-         </nav>
+    <div>
 
-        </div> 
-            
-        
+      <img src="images/banner principal2.jpg" class="banner-principal" alt="">
 
-    <!-- FIN  HEADER-->
-       
-    
 
-    </header>
-    
+    </div>
 
-    <!--MAPA DE SUCURSALES-->
+  </header>
 
-<main>
+
+
+<!--GALERIA DE PRODUCTOS-->
+
+
+   <!--MAPA DE SUCURSALES-->
+
+   <main>
 
 
 
@@ -52,41 +68,56 @@
         <h2 class="title-sucursales">SUCURSALES</h2>
 
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9493209285984!2d-71.64837792526335!3d-40.76313937138598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610bf42e8a5ddf9%3A0x5cbda329622f4269!2sLas%20Frambuesas%20100%2C%20Q8407%20Villa%20La%20Angostura%2C%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1704696826179!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.9493209285984!2d-71.64837792526335!3d-40.76313937138598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9610bf42e8a5ddf9%3A0x5cbda329622f4269!2sLas%20Frambuesas%20100%2C%20Q8407%20Villa%20La%20Angostura%2C%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1704696826179!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map-container"></iframe>
 
         <a href="https://www.google.com.ar/maps/place/Las+Frambuesas+100,+Q8407+Villa+La+Angostura,+Neuqu%C3%A9n/@-40.7631394,-71.645803,17z/data=!3m1!4b1!4m6!3m5!1s0x9610bf42e8a5ddf9:0x5cbda329622f4269!8m2!3d-40.7631394!4d-71.645803!16s%2Fg%2F11v0t528p7?entry=ttu"></a>
         <p class="direction">Las Frambuesas 100, Villa La Angostura</p>
 
 </main>
-
-<!--CONTACTO-->
-
+       
 
 
+    <!--CONTACTO-->
+
+     
+    <footer class="footer">
+
+      <div class="box-footer">
   
-<div class="redes">
+        <h3 class="contacto">CONTACTO</h3>
+      </div>
   
   
-  <a class="instagram" href="" target="_blank">
-
-    <i class="fa-brands fa-instagram"></i>
-    <p class="instagram">INSTAGRAM</p>
-
-
-  </a>
-
-
-
-</div>
-
-<footer>
-
-
-  <p class="copyright">Copyright todos los derechos reservados</p>
-
-
-  <p>Developed by Valentina Beatrice</p>
-
+      <div class="redes">
+  
+  
+        <a class="instagram" href="" target="_blank">
+  
+          <i class="fa-brands fa-instagram"></i>
+          <p class="instagram">INSTAGRAM</p>
+  
+  
+        </a>
+  
+  
+  
+      </div>
+  
+  
+  
+  
+  
+  
+  
+  
+      </div>
+  
+      <p class="copyright">Copyright todos los derechos reservados</p>
+  
+  
+      <p>Developed by Valentina Beatrice</p>
+  
+  
 
 
 
@@ -94,6 +125,21 @@
 
 
 
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+ AOS.init();
+</script>
 </body>
+
+
 </html>
+
+
+
+    
+
+ 
+
+
+
+ 

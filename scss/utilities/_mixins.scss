@@ -1,0 +1,38 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+@mixin flex($direction, $justify, $align, $gap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    gap: $gap;
+}
+
+
+
+@mixin body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+@mixin sizes ($width, $height) {
+
+    width: $width;
+    height: $height;
+}
+
+
+@mixin sizes ($width, $max-width, $height){
+    width: $width;
+    max-width: $max-width;
+    height: $height;
+
+}
