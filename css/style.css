@@ -42,6 +42,10 @@
     text-align: center;
     padding: 20px;
   }
+
+  .background-color{
+    background-color: #161616;
+  }
   
   .menu {
     display: flex;
@@ -69,11 +73,13 @@
     align-items: center;
     margin-bottom: 3em;
     margin: 2rem auto;
+    background-color: #161616;
   }
   
   @media screen and (max-width: 550px) {
     .banner {
       width: 300px;
+      background-color: #161616;
     }
   }
   .title {
@@ -85,8 +91,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #494948;
     font-size: 4.5rem;
-    margin: 4rem auto;
-    margin-top: 20%;
+    margin: auto;
+    background-color: #161616;
   }
   
   .nosotros-img {
@@ -94,7 +100,7 @@
     margin-left: 20%;
     float: left;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 20%;
   }
   
   .nosotros-description {
@@ -228,11 +234,10 @@
   }
   
   .footer {
-    background-color: #161518;
+    background-color: #151817;
     color: #9d926e;
     text-align: center;
     padding: 20px;
-    margin-top: 10%;
   }
   .footer-box {
     display: flex;
