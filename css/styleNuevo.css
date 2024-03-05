@@ -226,6 +226,8 @@ body {
 }
 
 .footer {
+  width: 100%;
+  justify-content: center;
   background-color: #161518;
   color: #9d926e;
   text-align: center;
