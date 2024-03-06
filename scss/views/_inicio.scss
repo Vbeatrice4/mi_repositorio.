@@ -10,6 +10,27 @@ body {
     text-align: center;
     padding: 20px;
 }
+.navbar{
+    color: #fff;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(143, 143, 143);
+}
+.nav-link{
+    font-size: 2rem;
+    color: rgb(143, 143, 143);
+}
+
+.navbar-expand-md .navbar-collapse{
+    justify-content: space-around;
+}
+
+.navbar-toggler{
+    color: #fff;
+}
+
 
 .menu {
     @include flex-center;
