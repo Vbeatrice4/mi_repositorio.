@@ -10,6 +10,27 @@ body {
     text-align: center;
     padding: 20px;
 }
+.navbar{
+    color: #fff;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+    color: rgb(143, 143, 143);
+}
+.nav-link{
+    font-size: 2rem;
+    color: rgb(143, 143, 143);
+}
+
+.navbar-expand-md .navbar-collapse{
+    justify-content: space-around;
+}
+
+.navbar-toggler{
+    color: #fff;
+}
+
 
 .menu {
     @include flex-center;
@@ -217,10 +238,8 @@ body {
     padding: 1rem 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #494848;
-    padding: 5%;
     font-size: 4rem;
-    margin: 100% 100%;
-
+    width: 100%;
 }
 
 
@@ -300,7 +319,7 @@ body {
 
 @media screen and (max-width: 550px) {
     .footer {
-        width: 200px;
+        width: 100%;
         justify-content: center
     }
 
